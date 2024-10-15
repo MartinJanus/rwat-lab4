@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rwat-lab4</title>
+  </head>
+  <body>
+    <h2>Link to GH pages:</h2>
+    <a href="https://martinjanus.github.io/rwat-lab4/">GitHub Pages</a>
+
+    <h3>XMLHttpRequest used synchronously</h3>
+    <button onclick="useSyncXML()">Fetch Data Synchronously</button>
+    <table id="data-table1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- results here -->
+      </tbody>
+    </table>
+
+    <h3>XMLHttpRequest used asynchronously with callbacks</h3>
+    <button onclick="useAsyncXML()">Fetch Data Asynchronously</button>
+    <table id="data-table2">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- results here -->
+      </tbody>
+    </table>
+
+    <h3>Using Fetch() and Promises</h3>
+    <button onclick="useFetchData()">Fetch() and Promises</button>
+    <table id="data-table3">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- results here -->
+      </tbody>
+    </table>
+
+    <script src="main.js"></script>
+  </body>
+</html>
